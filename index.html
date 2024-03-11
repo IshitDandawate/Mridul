@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="person-selector">
+      <button class="button person-selector-button active-person" id="john-selector">User 1</button>
+      <button class="button person-selector-button" id="jane-selector">User 2</button>
+      
+    </div>
+
+    <div class="panel">
+      <div class="chat-panel">
+        <div class="box"><img src="logo.svg" alt="Image 1"></div>
+        <div class="box0"><img src="Frame 1.png" alt="Image 2"></div>
+        <div class="box1"><img src="gear.png" alt="Image 3"></div>
+      </div>
+      <div class="chat-container">
+        <h2 class="chat-header">User 1</h2>
+  
+        <div class="chat-messages">
+          <div class="message blue-bg">
+            <div class="message-sender">User 1</div>
+            <div class="message-text">Heyyyya Suppp!!</div>
+            <div class="message-timestamp">10:30 AM</div>
+          </div>
+          <div class="message gray-bg">
+            <div class="message-sender">User 2</div>
+            <div class="message-text">Hi! Nothing much WBY?</div>
+            <div class="message-timestamp">10:35 AM</div>
+          </div>
+        </div>
+  
+        <form class="chat-input-form">
+          <input type="text" class="chat-input" required placeholder="Messaging..." />
+          <button type="submit" class="button send-button"><img src="send.png" alt="Send" class="send-icon"></button>
+          <button class="button clear-chat-button"><img src="clear.svg" alt="Clear Text"></button>
+        </form>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
